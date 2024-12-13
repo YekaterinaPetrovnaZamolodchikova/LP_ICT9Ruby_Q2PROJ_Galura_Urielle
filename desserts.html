@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Byte - Vegan Recipes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            background-color: rgba(234,232,215,255);
+            color: rgba(62,34,15,255);
+        }
+        .navbar {
+            background-color: rgba(120,88,62,255);
+        }
+        .navbar-brand, .nav-link {
+            color: rgba(234,232,215,255) !important;
+        }
+        .recipe-card {
+            background-color: rgba(197,189,170,255);
+            border: 1px solid rgba(120,88,62,255);
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .recipe-title {
+            color: rgba(62,34,15,255);
+            font-weight: bold;
+        }
+        .btn-back {
+            background-color: rgba(120,88,62,255);
+            color: rgba(234,232,215,255);
+        }
+        .btn-back:hover {
+            background-color: rgba(62,34,15,255);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Byte</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categories.html">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Submit Recipe</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Dessert Recipes</h1>
+
+        <div class="recipe-card">
+            <h2 class="recipe-title">Tiramisu</h2>
+            <h3>Ingredients</h3>
+            <ul>
+                <li>1 package ladyfingers</li>
+                <li>4 eggs, separated</li>
+                <li>1 cup sugar, divided</li>
+                <li>1/4 cup rum, divided</li>
+                <li>16 ounces mascarpone</li>
+                <li>1 cup strong coffee</li>
+                <li>1 teaspoon vanilla extract</li>
+                <li>Cocoa powder for dusting</li>
+            </ul>
+            <h3>Instructions</h3>
+            <ol>
+                <li>Brew coffee and mix with 2 tbsp rum.</li>
+                <li>Beat egg whites with 1/2 cup sugar until stiff.</li>
+                <li>Whisk egg yolks with remaining sugar, mascarpone, vanilla, and 2 tbsp rum.</li>
+                <li>Layer coffee-dipped ladyfingers and mascarpone mixture in a pan.</li>
+                <li>Dust with cocoa and refrigerate for 4+ hours before serving.</li>
+            </ol>
+        </div>
+
+        <div class="recipe-card">
+            <h2 class="recipe-title">Leche Flan</h2>
+            <h3>Ingredients</h3>
+            <ul>
+                <li>10 eggs (yolks only)</li>
+                <li>1 can condensed milk (14 oz)</li>
+                <li>1 cup fresh milk or evaporated milk</li>
+                <li>1 cup granulated sugar</li>
+                <li>1 teaspoon vanilla extract</li>
+            </ul>
+            <h3>Instructions</h3>
+            <ol>
+                <li>Beat egg yolks in a bowl.</li>
+                <li>Mix in condensed milk, fresh milk, and vanilla extract.</li>
+                <li>Caramelize sugar in a mold and spread evenly.</li>
+                <li>Pour in the egg mixture, cover with foil, and steam for 30-35 minutes.</li>
+                <li>Cool, refrigerate, and serve chilled.</li>
+            </ol>
+        </div>
+
+        <a href="categories.html" class="btn btn-back">Back to Categories</a>
+    </div>
+
+</body>
+</html>

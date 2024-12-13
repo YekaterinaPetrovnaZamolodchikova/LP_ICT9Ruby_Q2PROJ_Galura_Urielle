@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Byte - Vegan Recipes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            background-color: rgba(234,232,215,255);
+            color: rgba(62,34,15,255);
+        }
+        .navbar {
+            background-color: rgba(120,88,62,255);
+        }
+        .navbar-brand, .nav-link {
+            color: rgba(234,232,215,255) !important;
+        }
+        .recipe-card {
+            background-color: rgba(197,189,170,255);
+            border: 1px solid rgba(120,88,62,255);
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .recipe-title {
+            color: rgba(62,34,15,255);
+            font-weight: bold;
+        }
+        .btn-back {
+            background-color: rgba(120,88,62,255);
+            color: rgba(234,232,215,255);
+        }
+        .btn-back:hover {
+            background-color: rgba(62,34,15,255);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Byte</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categories.html">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Submit Recipe</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Meat Recipes</h1>
+
+        <div class="recipe-card">
+            <h2 class="recipe-title">Bistek Tagalog</h2>
+            <h3>Ingredients</h3>
+            <ul>
+                <li>1 1/2 lbs beef sirloin thinly sliced</li>
+                <li>5 tablespoons soy sauce</li>
+                <li>4 pieces calamansi or 1-piece lemon</li>
+                <li>1/2 tsp ground black pepper</li>
+                <li>3 cloves garlic minced</li>
+                <li>3 pieces onion sliced into rings</li>
+                <li>4 tablespoons cooking oil</li>
+                <li>1 cup water</li>
+                <li>1 pinch salt</li>
+            </ul>
+            <h3>Instructions</h3>
+            <ol>
+                <li>Marinate beef in soy sauce, lemon (or calamansi), and ground black pepper for at least 1 hour.</li>
+                <li>Heat the cooking oil in a pan, then pan-fry half of the onions until soft. Set aside.</li>
+                <li>Drain the marinade from the beef. Pan-fry the beef for 1 minute per side. Remove and set aside.</li>
+                <li>Sauté garlic and remaining onions. Pour the marinade and water, then bring to a boil.</li>
+                <li>Add beef. Cover and simmer until tender. Add water as needed.</li>
+                <li>Season with salt and pepper. Top with pan-fried onions. Serve hot.</li>
+            </ol>
+        </div>
+
+        <div class="recipe-card">
+            <h2 class="recipe-title">Filet Mignon</h2>
+            <h3>Ingredients</h3>
+            <ul>
+                <li>2 Filet Mignons</li>
+                <li>Salt & ground black pepper to taste</li>
+                <li>1 tablespoon oil</li>
+                <li>2 tablespoons unsalted butter</li>
+                <li>5 cloves garlic peeled</li>
+                <li>4 sprigs fresh rosemary</li>
+            </ul>
+            <h3>Instructions</h3>
+            <ol>
+                <li>Season steaks and let sit at room temperature for 30-60 minutes.</li>
+                <li>Heat a skillet over high heat. Add oil and sear steaks for 2-3 minutes per side.</li>
+                <li>Add butter, garlic, and rosemary to the skillet. Bake at 360°F for 2-8 minutes, depending on doneness preference.</li>
+                <li>Remove steaks, tent with foil, and let rest for 5-10 minutes. Serve.</li>
+            </ol>
+        </div>
+
+        <a href="categories.html" class="btn btn-back">Back to Categories</a>
+    </div>
+
+</body>
+</html>
